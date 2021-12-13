@@ -1,0 +1,9 @@
+<div class="field linkedin-profile <?= $block->isRequired() ? 'required' : '' ?>" data-container="change-linkedin-profile">
+    <label class="label" for="linkedin-profile"><span><?= $block->escapeHtml(__('linkedin profile')) ?></span></label>
+    <div class="control">
+        <input type="text" name="linkedin_profile" id="linkedin_profile" autocomplete="linkedin_profile"
+               value="<?= $block->escapeHtmlAttr($block->getLinkedinProfile()) ?>"
+               title="<?= $block->escapeHtmlAttr(__('linkedin_profile')) ?>"
+               class="input-text validate-length maximum-length-250 validate-url" <?= $block->isRequired() ? ' data-validate="{required:true}"' : '' ?>/>
+    </div>
+</div>

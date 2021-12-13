@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+	<table name="customer_entity">
+		<column name="linkedin_profile" nullable="true" xsi:type="varchar" comment="Linkedin Profile" length="255"/>
+	</table>
+</schema>

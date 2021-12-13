@@ -1,0 +1,21 @@
+{
+    "name": "nalinsavaliya/linkedin-profile",
+    "description": "Redbox linkedin profile",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Nalin Savaliya",
+            "email": "nalin.j.savaliya@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Redbox\\Linkedin\\": ""
+        }
+    }
+}

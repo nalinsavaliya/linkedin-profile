@@ -1,0 +1,12 @@
+<fieldset class="fieldset create account" data-hasrequired="<?php /* @escapeNotVerified */ echo __('* Required Fields') ?>">
+    <legend class="legend"><span><?php /* @escapeNotVerified */ echo __('Linkedin Profile') ?></span></legend>
+    <p>
+    <div class="field regulation">
+        <label for="regulation" class="label"><span><?php /* @escapeNotVerified */
+                echo __('Linkedin Profile') ?></span></label>
+        <div class="control">
+            <input type="text" name="linkedin_profile" id="linkedin_profile" title="<?php /* @escapeNotVerified */ echo __('Linkedin Profile') ?>" class="input-text validate-length maximum-length-250 validate-url" <?= $block->isRequired() ? ' data-validate="{required:true}"' : '' ?>>
+        </div>
+    </div>
+    </p>
+</fieldset>
