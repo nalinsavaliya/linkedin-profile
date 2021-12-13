@@ -8,7 +8,10 @@
             "email": "nalin.j.savaliya@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
     "require": {},
     "autoload": {
         "files": [
